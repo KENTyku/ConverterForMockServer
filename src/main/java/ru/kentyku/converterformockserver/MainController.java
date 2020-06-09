@@ -14,8 +14,14 @@ public class MainController {
                 "<body>" +
                 "<h1>Converter v.1</h1>" +
                 "<p>Instruction:</p>" +
-//                "<br>"+
-                "Add to url your string"+
+                "<br>"+
+                "Add <b>/getPorts?textFromPipeLine=</b> with your string from pipeLine to base url  " +
+                "<br>"+
+                "For example: <b>baseUrl/getPorts?textFromPipeLine=yourStringFromPipeLine</b>"+
+                "<br>"+
+                "and execute this GET request. " +
+                "<br>"+
+                "After this copy response to your POM."+
                 "</body>" +
                 "</html>";
         return page;
